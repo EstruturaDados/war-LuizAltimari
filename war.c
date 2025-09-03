@@ -17,7 +17,6 @@ struct Territorio {
 
 //Vetor para armazenar 5 territórios
 struct Territorio territorios[5];
-int opcao;
 
 void limparBufferEntrada(){
     int c;
@@ -55,7 +54,7 @@ void listarTerritorios(){
         printf(" - Dominado por: Exército: %s\n", territorios[i].cor);
         printf(" - Tropas: %d\n\n", territorios[i].tropas);
     }
-    
+
     limparBufferEntrada();
 }
 
